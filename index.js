@@ -18,7 +18,8 @@ app.post('/get_users', (req, res) => {
   var users = userList(res, screen_name);
 });
 
-// App setup on port 5000
-app.listen(5000, function() {
-  console.log('Server running on http://localhost:5000');
-});
+// App setup
+const port = process.env.PORT || 5000;
+app.listen(process.env.PORT, () =>
+  console.log(`Server started on port: ${port}`)
+);
