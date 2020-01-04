@@ -4,6 +4,8 @@ A Node app that uses the Twitter API to check who a user is following and determ
 
 Front end uses Pug templating engine.
 
+[Demo Here](https://floating-bastion-59383.herokuapp.com/)
+
 ## config setup
 
 Add a folder to the source direftory 'config'.
