@@ -1,0 +1,19 @@
+{
+  "name": "twitter-one-way-followers",
+  "version": "1.0.0",
+  "description": "Check any twitter user to see who they follow that doesn't follow them back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kane Powley",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "twitter": "^1.7.1"
+  }
+}

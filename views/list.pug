@@ -1,0 +1,14 @@
+html
+    head
+        title Follow back list
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+    body
+        .row
+            .col-6.offset-3
+                h1.text-center Your List
+                p.text-center You follow these people but they do not follow you back 😲 
+                ul.list-group
+                    each user in users
+                        a.list-group-item(target="_blank" href="https://twitter.com/" + user.screen_name)
+                            img.mr-3(src=user.avatar)
+                            span= user.name + " - " + user.screen_name

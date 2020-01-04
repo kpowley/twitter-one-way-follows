@@ -1,0 +1,13 @@
+html
+    head
+        title Follow back list
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+    body
+        .row
+            .col-4.offset-4.text-center
+                h1 Follow Back List
+                p See who you follow that doesn't follow you back
+                form(action="get_users", method="POST")
+                    input.form-control.mb-3(type="text", name="handle", placeholder="Enter Name")
+                    input.form-control.btn.btn-primary(type="submit", value="Get Users")
+
