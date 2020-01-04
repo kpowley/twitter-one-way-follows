@@ -4,7 +4,7 @@
   "description": "Check any twitter user to see who they follow that doesn't follow them back",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Kane Powley",
